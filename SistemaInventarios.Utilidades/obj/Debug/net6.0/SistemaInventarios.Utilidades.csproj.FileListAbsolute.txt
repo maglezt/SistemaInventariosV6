@@ -1,0 +1,12 @@
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\bin\Debug\net6.0\SistemaInventarios.Utilidades.deps.json
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\bin\Debug\net6.0\SistemaInventarios.Utilidades.dll
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\bin\Debug\net6.0\SistemaInventarios.Utilidades.pdb
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\SistemaInventarios.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\SistemaInventarios.Utilidades.AssemblyInfoInputs.cache
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\SistemaInventarios.Utilidades.AssemblyInfo.cs
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\SistemaInventarios.Utilidades.csproj.CoreCompileInputs.cache
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\SistemaInventarios.Utilidades.sourcelink.json
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\SistemaInventarios.Utilidades.dll
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\refint\SistemaInventarios.Utilidades.dll
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\SistemaInventarios.Utilidades.pdb
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Utilidades\obj\Debug\net6.0\ref\SistemaInventarios.Utilidades.dll

@@ -1,0 +1,16 @@
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\bin\Debug\net6.0\SistemaInventarios.Modelos.deps.json
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\bin\Debug\net6.0\SistemaInventarios.Modelos.dll
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\bin\Debug\net6.0\SistemaInventarios.Modelos.pdb
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\bin\Debug\net6.0\SistemaInventarios.Utilidades.dll
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\bin\Debug\net6.0\SistemaInventarios.Utilidades.pdb
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.csproj.AssemblyReference.cache
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.AssemblyInfoInputs.cache
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.AssemblyInfo.cs
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.csproj.CoreCompileInputs.cache
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.sourcelink.json
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaI.99EF24A9.Up2Date
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.dll
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\refint\SistemaInventarios.Modelos.dll
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\SistemaInventarios.Modelos.pdb
+C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventarios.Modelos\obj\Debug\net6.0\ref\SistemaInventarios.Modelos.dll
