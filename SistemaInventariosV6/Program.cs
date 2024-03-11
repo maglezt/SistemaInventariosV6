@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventarios.AccesoDatos.Data;
+using SistemaInventarios.AccesoDatos.Repositorio;
+using SistemaInventarios.AccesoDatos.Repositorio.IRepositorio;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,9 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+//SERVICIOS. Siempre van antes del var app
+builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();//de esta manera se agrega el servicio de Unidad de trabajo para tenerla accesible en cualquier parte del proyecto
 
 var app = builder.Build();
 
