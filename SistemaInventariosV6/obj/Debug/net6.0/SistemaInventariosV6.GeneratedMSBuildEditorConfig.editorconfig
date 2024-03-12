@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\IDEA Systems\PROYECTOS\WEB\SistemaInventariosV6\SistemaInventariosV6
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/IDEA Systems/PROYECTOS/WEB/SistemaInventariosV6/SistemaInventariosV6/Areas/Admin/Views/Bodega/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9kZWdhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/IDEA Systems/PROYECTOS/WEB/SistemaInventariosV6/SistemaInventariosV6/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

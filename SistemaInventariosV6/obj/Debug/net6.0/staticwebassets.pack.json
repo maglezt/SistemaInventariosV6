@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\wwwroot\\js\\bodega.js",
+      "PackagePath": "staticwebassets\\js\\bodega.js"
+    },
+    {
       "Id": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
