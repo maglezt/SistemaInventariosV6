@@ -56,3 +56,30 @@ function loadDataTable() {
         ]
     });
 }
+
+function Delete(url) {
+    //Aqui se hace uso de la libreria SweetAlert invocandola con "swal"
+    swal({
+        title: "Esta seguro de eliminar la bodega?",
+        text: "Este registro no se prodrá recuperar",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true
+    }).then((borrar) => {
+        if (borrar) {
+            $.ajax({
+                type: "POST",
+                url: url,
+                success: function (data) {
+                    if (data.success) {
+                        toastr.success(data.message);
+                        datatable.ajax.reload();
+                    }
+                    else {
+                        toastr.error(data.message);
+                    }
+                }
+            });
+        }
+    });
+}
