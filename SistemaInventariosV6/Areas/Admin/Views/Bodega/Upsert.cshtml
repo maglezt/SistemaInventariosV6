@@ -15,7 +15,7 @@
             //Actualizar
             titulo = "Actualizar Bodega";
             @*asp-for es para accerder a las propiedades del modelo*@
-            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Id" id="id"/>
         }
         
         <div class="col-12 border-bottom p-0">
@@ -25,7 +25,7 @@
         <div class="row mb-2 mt-2">
             <div class="form-group col-md-6">
                 <label>Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre de la Bodega"/>
+                <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre de la Bodega" id="nombre"/>
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
         </div>
@@ -72,5 +72,42 @@
         DataAnotation
     *@
     <partial name="_ValidationScriptsPartial" />
+
+    @*Se crea un script de javascript*@
+    <script>
+
+        /*por medio de javascript se maneja el evento para cuando cambia el valor de el input "nombre"
+        y se llama a la funcion "validarNombre()" creada mas abajo*/
+        document.getElementById("nombre").addEventListener('change', function () {
+            validarNombre();
+        })
+
+        //Esta funcion se encargará de llamar al metodo "ValidarNombre()" que se encuentra en el controlador
+        function validarNombre()
+        {
+            //se indica el URL donde se encuentra el metodo
+            var varUrl = '@Url.Content("~/")' + "Admin/Bodega/ValidarNombre";
+            //Se obtiene el valor del input id utilizando jQuery
+            var varId = "#id";
+            //Se obtiene el valor del input nombre
+            var varNombre = "#nombre"; 
+
+            /*por medio de json se invoca el metodo "ValidarNombre()", del controlador, 
+            pasandole la url, lo capturado en el input id y el input nombre.
+            Ahi mismo se va a recibir un json con la variable "data" y se recorrerá cada valor */
+            $.getJSON(varUrl, { id: $(varId).val(), nombre: $(varNombre).val() }, function (data) {
+                $.each(data, function (key, value){//esta funcion recibirá un "key" (nombre de la propiedad del json) y un "value" (el valor de la propiedad), donde esta ultima es la que se va a evaluar
+                    if (value) {
+                        //se obtiene de nuevo el valor del input "nombre"
+                        var nombre = document.getElementById("nombre");
+                        //por medio de la libreria "Sweet Alert" se desplegará un mensaje de error
+                        swal("Error", "El nombre de la Bodega ya existe", "error");
+                        //se limpia el input "nombre"
+                        nombre.value = "";
+                    }
+                });
+            })
+        }
+    </script>
 }
 

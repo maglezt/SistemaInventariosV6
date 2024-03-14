@@ -1,0 +1,24 @@
+﻿@using SistemaInventarios.Utilidades;
+
+@* Si se encontraron datos en el tempData *@
+@if(TempData[DS.Exitosa] != null)//TempData son Datos temporales que se pueden manejar en un controlador y se pueden usar en cualquier parte del programa
+{
+    @*Estas librerias se copiaron del _Layout*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.success('@TempData[DS.Exitosa]');
+    </script>
+}
+
+@* Si se encontraron datos en el tempData *@
+@if (TempData[DS.Error] != null)//TempData son Datos temporales que se pueden manejar en un controlador y se pueden usar en cualquier parte del programa
+{
+    @*Estas librerias se copiaron del _Layout*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.success('@TempData[DS.Error]');
+    </script>
+}
+

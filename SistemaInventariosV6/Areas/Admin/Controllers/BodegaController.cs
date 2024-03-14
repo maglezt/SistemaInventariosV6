@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaInventarios.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventarios.Modelos;
+using SistemaInventarios.Utilidades;
 
 namespace SistemaInventariosV6.Areas.Admin.Controllers
 {
@@ -50,16 +51,19 @@ namespace SistemaInventariosV6.Areas.Admin.Controllers
                 if(bodega.Id == 0)
                 {
                     await _unidadTrabajo.Bodega.Agregar(bodega);
+                    TempData[DS.Exitosa] = "Bodega creada exitosamente";
                 }
                 else
                 {
                     _unidadTrabajo.Bodega.Actualizar(bodega);
+                    TempData[DS.Exitosa] = "Bodega actualizada exitosamente";
                 }
 
                 await _unidadTrabajo.Guardar();
                 return RedirectToAction(nameof(Index));//redirecciona a Index
             }
 
+            TempData[DS.Error] = "Error al grabar bodega";
             return View(bodega);
         }
 
@@ -94,6 +98,29 @@ namespace SistemaInventariosV6.Areas.Admin.Controllers
 
             //Se indica un mensaje correspondiente a la eliminación
             return Json(new { success = true, message = "Bodega " + bodegaDB.Nombre + " borrada exitosamente" });
+        }
+
+        [ActionName("ValidarNombre")]//se indica este Tag para poder referenciarlo en el javascript desde la vista upsert
+        public async Task<IActionResult> ValidarNombre(string nombre, int id=0)
+        {
+            bool existeBodega = false;
+            var lista = await _unidadTrabajo.Bodega.ObtenerTodos();
+
+            //Si es una bodega nueva
+            if(id == 0)
+            {
+                //Se indica si existe la bodega que se quiere registrar
+                existeBodega = lista.Any(b=>b.Nombre.ToLower().Trim().Equals(nombre.ToLower().Trim()));
+            }
+            //pero si es una bodega existente
+            else
+            {
+                //Se indica si existe la bodega que se quiere modificar
+                existeBodega = lista.Any(b => b.Nombre.ToLower().Trim().Equals(nombre.ToLower().Trim()) && b.Id != id);
+            }
+
+            //Se retorna un json indicando si existe o no la bodega indicada
+            return Json(new { data = existeBodega });
         }
 
         #endregion

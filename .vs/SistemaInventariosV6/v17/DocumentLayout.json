@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\wwwroot\\js\\bodega.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\wwwroot\\js\\bodega.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\areas\\admin\\views\\bodega\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\areas\\admin\\views\\bodega\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\areas\\admin\\controllers\\bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\areas\\admin\\controllers\\bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\areas\\admin\\views\\bodega\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\areas\\admin\\views\\bodega\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\wwwroot\\js\\bodega.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\wwwroot\\js\\bodega.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\views\\shared\\_botonesactualizaryregresar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\views\\shared\\_botonescrearyregresar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\views\\shared\\_botonescrearyregresar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|solutionrelative:sistemainventariosv6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CE18497-C913-431A-A54B-97E6EDB833E8}|SistemaInventariosV6\\SistemaInventariosV6.csproj|c:\\idea systems\\proyectos\\web\\sistemainventariosv6\\sistemainventariosv6\\areas\\admin\\views\\bodega\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,26 +106,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Upsert.cshtml",
               "DocumentMoniker": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\Areas\\Admin\\Views\\Bodega\\Upsert.cshtml",
               "RelativeDocumentMoniker": "SistemaInventariosV6\\Areas\\Admin\\Views\\Bodega\\Upsert.cshtml",
               "ToolTip": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\Areas\\Admin\\Views\\Bodega\\Upsert.cshtml",
               "RelativeToolTip": "SistemaInventariosV6\\Areas\\Admin\\Views\\Bodega\\Upsert.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAG4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-13T07:57:24.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SistemaInventariosV6\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "SistemaInventariosV6\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-12T06:18:10.783Z",
               "EditorCaption": ""
@@ -138,27 +138,27 @@
               "RelativeDocumentMoniker": "SistemaInventariosV6\\Areas\\Admin\\Controllers\\BodegaController.cs",
               "ToolTip": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\Areas\\Admin\\Controllers\\BodegaController.cs",
               "RelativeToolTip": "SistemaInventariosV6\\Areas\\Admin\\Controllers\\BodegaController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAcwFQAAAAqAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAmwG0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T06:09:35.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "bodega.js",
               "DocumentMoniker": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\wwwroot\\js\\bodega.js",
               "RelativeDocumentMoniker": "SistemaInventariosV6\\wwwroot\\js\\bodega.js",
               "ToolTip": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\wwwroot\\js\\bodega.js",
               "RelativeToolTip": "SistemaInventariosV6\\wwwroot\\js\\bodega.js",
-              "ViewState": "AQIAADAAAAAAAAAAAAAcwE4AAAAzAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAE4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-03-12T07:00:19.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_BotonesCrearYRegresar.cshtml",
               "DocumentMoniker": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\Views\\Shared\\_BotonesCrearYRegresar.cshtml",
               "RelativeDocumentMoniker": "SistemaInventariosV6\\Views\\Shared\\_BotonesCrearYRegresar.cshtml",
@@ -166,12 +166,11 @@
               "RelativeToolTip": "SistemaInventariosV6\\Views\\Shared\\_BotonesCrearYRegresar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T07:58:55.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T07:58:55.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_BotonesActualizarYRegresar.cshtml",
               "DocumentMoniker": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\Views\\Shared\\_BotonesActualizarYRegresar.cshtml",
               "RelativeDocumentMoniker": "SistemaInventariosV6\\Views\\Shared\\_BotonesActualizarYRegresar.cshtml",
@@ -179,8 +178,7 @@
               "RelativeToolTip": "SistemaInventariosV6\\Views\\Shared\\_BotonesActualizarYRegresar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T08:12:29.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T08:12:29.754Z"
             },
             {
               "$type": "Document",
@@ -192,8 +190,7 @@
               "RelativeToolTip": "SistemaInventariosV6\\Areas\\Admin\\Views\\Bodega\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-12T06:16:08.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T06:16:08.933Z"
             },
             {
               "$type": "Document",
