@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5tdWTd9FNly5Ix+MHp15z1U+jsSQLBPXjC/yVfiGb+I=",
+  "Hash": "JQwXTxqN43eIx/M8uzif/UjCL9WnB5oZoga2iNqt7cQ=",
   "Source": "SistemaInventariosV6",
   "BasePath": "_content/SistemaInventariosV6",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\wwwroot\\js\\categoria.js",
+      "SourceId": "SistemaInventariosV6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\wwwroot\\",
+      "BasePath": "_content/SistemaInventariosV6",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
       "Identity": "C:\\IDEA Systems\\PROYECTOS\\WEB\\SistemaInventariosV6\\SistemaInventariosV6\\wwwroot\\js\\site.js",
