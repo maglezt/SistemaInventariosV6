@@ -1,0 +1,113 @@
+﻿@model SistemaInventarios.Modelos.Marca
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Marca";
+}
+
+<form method="post">
+    <div style="padding-left:15%; padding-right:15%; padding-bottom:inherit.4rem;">
+        <div class="row border-0">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </div>
+        @if(Model.Id != 0)
+        {
+            //Actualizar
+            titulo = "Actualizar Marca";
+            @*asp-for es para accerder a las propiedades del modelo*@
+            <input type="hidden" asp-for="Id" id="id"/>
+        }
+        
+        <div class="col-12 border-bottom p-0">
+            <h2 class="text-primary">@titulo</h2>
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Nombre</label>
+                <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre de la Marca" id="nombre" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Descripcion</label>
+                <input type="text" asp-for="Descripcion" class="form-control" placeholder="Descripción de la Marca" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Estado</label>
+                <select asp-for="Estado" class="for-select">
+                    <option value="true">Activo</option>
+                    <option value="false">Inactivo</option>
+                </select>
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+        </div>
+        
+        <br />
+
+        <div>
+            @if(Model.Id != 0)
+            {
+                <partial name="_BotonesActualizarYRegresar" model="Model.Id"></partial>
+            }
+            else
+            {
+                <partial name="_BotonesCrearYRegresar"></partial>
+            }
+        </div>
+
+
+    </div>
+</form>
+
+@section Scripts{
+    @*Esto es para que se hagan las validaciones de los campos requeridos
+        del lado del cliente, según lo indicado en el modelo con los 
+        DataAnotation
+    *@
+    <partial name="_ValidationScriptsPartial" />
+
+    @*Se crea un script de javascript*@
+    <script>
+
+        /*por medio de javascript se maneja el evento para cuando cambia el valor de el input "nombre"
+        y se llama a la funcion "validarNombre()" creada mas abajo*/
+        document.getElementById("nombre").addEventListener('change', function () {
+            validarNombre();
+        })
+
+        //Esta funcion se encargará de llamar al metodo "ValidarNombre()" que se encuentra en el controlador
+        function validarNombre()
+        {
+            //se indica el URL donde se encuentra el metodo
+            var varUrl = '@Url.Content("~/")' + "Admin/Marca/ValidarNombre";
+            //Se obtiene el valor del input id utilizando jQuery
+            var varId = "#id";
+            //Se obtiene el valor del input nombre
+            var varNombre = "#nombre"; 
+
+            /*por medio de json se invoca el metodo "ValidarNombre()", del controlador, 
+            pasandole la url, lo capturado en el input id y el input nombre.
+            Ahi mismo se va a recibir un json con la variable "data" y se recorrerá cada valor */
+            $.getJSON(varUrl, { id: $(varId).val(), nombre: $(varNombre).val() }, function (data) {
+                $.each(data, function (key, value){//esta funcion recibirá un "key" (nombre de la propiedad del json) y un "value" (el valor de la propiedad), donde esta ultima es la que se va a evaluar
+                    if (value) {
+                        //se obtiene de nuevo el valor del input "nombre"
+                        var nombre = document.getElementById("nombre");
+                        //por medio de la libreria "Sweet Alert" se desplegará un mensaje de error
+                        swal("Error", "El nombre de la Marca ya existe", "error");
+                        //se limpia el input "nombre"
+                        nombre.value = "";
+                    }
+                });
+            })
+        }
+    </script>
+}
+

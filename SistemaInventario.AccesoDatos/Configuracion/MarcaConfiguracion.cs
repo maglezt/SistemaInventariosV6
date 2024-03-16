@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace SistemaInventarios.AccesoDatos.Configuracion
 {
     //En este archivo se indican, de otra manera, las propiedades de los modelos en vez de usar anotaciones
-    public class CategoriaConfiguracion : IEntityTypeConfiguration<Marca>
+    public class MarcaConfiguracion : IEntityTypeConfiguration<Marca>
     {
         public void Configure(EntityTypeBuilder<Marca> builder)
         {
