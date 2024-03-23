@@ -2,7 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <!--<Nullable>enable</Nullable> 
+    Se elimina esta etiqueta de todos los proyectos de la solucion para que desaparezca el warning en las 
+    propiedades de tipo string debido a que no hay riesgo de que reciba un null por que lo estamos controlando 
+    con el DataAnotacion y FluenAPI.
+    -->
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-SistemaInventariosV6-b935b3c9-0d38-420f-9425-d179dcfe5483</UserSecretsId>
   </PropertyGroup>
@@ -24,6 +28,10 @@
     <ProjectReference Include="..\SistemaInventario.AccesoDatos\SistemaInventarios.AccesoDatos.csproj" />
     <ProjectReference Include="..\SistemaInventarios.Modelos\SistemaInventarios.Modelos.csproj" />
     <ProjectReference Include="..\SistemaInventarios.Utilidades\SistemaInventarios.Utilidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagenes\producto\" />
   </ItemGroup>
 
 </Project>

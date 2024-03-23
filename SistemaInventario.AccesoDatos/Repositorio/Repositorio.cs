@@ -56,7 +56,7 @@ namespace SistemaInventarios.AccesoDatos.Repositorio
             if (filtro != null)
                 query = query.Where(filtro); //Esto es como hacer un "select * from where ...[filtro]"
 
-            if (string.IsNullOrEmpty(incluirPropiedades))
+            if (!string.IsNullOrEmpty(incluirPropiedades))
                 foreach (var caracter in incluirPropiedades.Split(',', StringSplitOptions.RemoveEmptyEntries))
                     query = query.Include(caracter); //Esto hace que se incluyan los datos a los que está relacionado la entidad, por ejemplo: la categoria, marca, etc de un producto
 
